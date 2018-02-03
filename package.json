@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cph-cs241/Database_KeyValue.git"
+    "url": "git://github.com/cph-cs241/Database_KeyValue.git"
   },
   "author": "",
   "license": "ISC",
