@@ -9,6 +9,9 @@ _Build a simple_db in the programming language of your choice._
 _Hint: You do not want to serialize and deserialize the an in memory Hashmap containing all data directly. Instead, you in memory index based on a Hashmap contains information on where in you database file a piece of information is stored._
 
 ## Solution:
-_Set-up_
-* 
+### Set-up
+* To execute the code, it requires you NodeJS: 1) Clone 2) ``npm init`` 3)``npm install`` 4) ``node index``
+
+### Description
+
 
