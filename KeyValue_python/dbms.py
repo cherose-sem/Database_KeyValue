@@ -8,7 +8,6 @@ def read():
         print(msg)
     f.close()
 
-
 def writeAppend():
     f = open('database.txt','a')
     f.write(enc('hello') + '\n')
@@ -24,5 +23,5 @@ def enc(str):
 
 # writeBinaryFile()
 # readBinaryFile()
-# writeAppend()
+writeAppend()
 read()
