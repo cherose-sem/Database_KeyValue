@@ -10,8 +10,14 @@ _Hint: You do not want to serialize and deserialize the an in memory Hashmap con
 
 ## Solution:
 ### Set-up
-* To execute the code, it requires you NodeJS: 1) Clone 2) ``npm init`` 3)``npm install`` 4) ``node index``
+* To execute the code, it requires you NodeJS: 1) Clone 2) ``npm init`` 3)``npm install`` 4) ``node index`` 
+
+_(BUT I HAD SOME ISSUES AND IT LOOKS REALLY COMPLICATED USING JS, SO I TRIED PYTHON - though I don't have a background using it... exploring something new that might work)_
+
+* In 'KeyValue_python' folder, run using ``python dbms.py``.
 
 ### Description
 
-
+* Based on the python solution and my understanding when it comes to the requirements, it enables to make hashmap-based index: having index as key and value of the offset.
+* It stores the data in a binary file.
+* It reads the hashmap-based index from the binary file.
