@@ -1,6 +1,10 @@
-var gdbm = require('gdbm');
-var db = new gdbm.GDBM();
-db.open("hoge.db", 0, gdbm.GDBM_WRCREAT);
-db.store("dan", "kogai");
-db.fetch("dan") # => "kogai"
-db.close();
+let dbms = require('./dbms');
+
+let test = "dog";
+let val = dbms.read(test);
+dbms.saveIndexMapToDisk();
+
+// dbms.populate();
+
+// dbms.write('dog', 'Bulder');
+// dbms.write('cat', 'Meow');
